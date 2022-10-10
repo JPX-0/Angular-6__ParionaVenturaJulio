@@ -1,0 +1,9 @@
+<h1 style="text-decoration: underline; text-align: center;">Página de estudiantes</h1>
+
+<!-- add component form -->
+<app-form (addStudent)="dataStudents($event)" ></app-form>
+
+<hr style="margin-top: 20px;">
+
+<!-- add component list-students -->
+<app-list-students [students]="students" ></app-list-students>

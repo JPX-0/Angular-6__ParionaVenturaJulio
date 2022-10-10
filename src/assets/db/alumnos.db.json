@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "info": {
+      "nombre": "Nombre1",
+      "apellido": "Apellido1",
+      "edad": 22,
+      "email": "email@hotmail.com",
+      "image": "http://image.png"
+    },
+    "data": {
+      "estado": "cursando",
+      "comision": 32320,
+      "cursos": [ "Angular", "Backend", "Desarrollo Web", "Javascript", "ReactJS" ]
+    }
+  },
+  {
+    "id": 2,
+    "info": {
+      "nombre": "Nombre2",
+      "apellido": "Apellido2",
+      "edad": 22,
+      "email": "email@hotmail.com",
+      "image": "http://image.png"
+    },
+    "data": {
+      "estado": "cursando",
+      "comision": 32320,
+      "cursos": [ "Angular", "Backend", "Desarrollo web", "Javascript", "ReactJS", "Vue" ]
+    }
+  },
+  {
+    "id": 3,
+    "info": {
+      "nombre": "Nombre3",
+      "apellido": "Apellido3",
+      "edad": 22,
+      "email": "email@hotmail.com",
+      "image": "http://image.png"
+    },
+    "data": {
+      "estado": "cursando",
+      "comision": 32320,
+      "cursos": [ "Angular", "Desarrollo web", "Javascript", "ReactJS" ]
+    }
+  },
+  {
+    "id": 4,
+    "info": {
+      "nombre": "Nombre4",
+      "apellido": "Apellido4",
+      "edad": 22,
+      "email": "email@hotmail.com",
+      "image": "http://image.png"
+    },
+    "data": {
+      "estado": "egresado",
+      "comision": 32320,
+      "cursos": [ "Angular", "Desarrollo web" ]
+    }
+  },
+  {
+    "id": 5,
+    "info": {
+      "nombre": "Nombre5",
+      "apellido": "Apellido5",
+      "edad": 22,
+      "email": "email@hotmail.com",
+      "image": "http://image.png"
+    },
+    "data": {
+      "estado": "cursando",
+      "comision": 32320,
+      "cursos": [ "Angular", "Backend" ]
+    }
+  },
+  {
+    "id": 6,
+    "info": {
+      "nombre": "Nombre6",
+      "apellido": "Apellido6",
+      "edad": 22,
+      "email": "email@hotmail.com",
+      "image": "http://image.png"
+    },
+    "data": {
+      "estado": "egresado",
+      "comision": 32320,
+      "cursos": [ "Angular", "Desarrollo web", "Javascript" ]
+    }
+  }
+]

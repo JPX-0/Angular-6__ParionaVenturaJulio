@@ -1,0 +1,22 @@
+<h2>Lista de estudiantes:</h2>
+<table class="table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Estudiante</th>
+      <th scope="col">Edad</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody class="table-group-divider">
+    <tr *ngFor="let student of students, let i = index">
+      <th scope="row">{{ i + 1 }}</th>
+      <td>{{ student.firstname + " " +  student.lastname}}</td>
+      <td>{{ student.age }}</td>
+      <td>{{ student.email }}</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    
+  </tfoot>
+</table>

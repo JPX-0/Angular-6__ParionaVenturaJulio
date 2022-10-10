@@ -1,0 +1,67 @@
+li {
+  list-style-type: none;
+}
+li:hover {
+  background-color: rgba(222, 222, 222, 0.5);
+}
+li::before {
+  display: none;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: 
+  'title title'
+  'img info';
+  grid-template-columns: repeat(2, 1fr);
+}
+.title {
+  grid-area: title;
+  text-align: center;
+}
+.img {
+  grid-area: img;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  height: 100%;
+}
+.img > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.info {
+  grid-area: info;
+}
+.info__courses {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.info__courses button {
+  font-size: 10px;
+}
+.list-group-item {
+  position: relative;
+}
+.list-group-item > h2, .list-group-item > section {
+  padding-left: 10px;
+}
+.span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  top: 5px;
+  left: 10px;
+  width: 5px;
+}
+.span--green::before {
+  background-color: green;
+}
+.span--red::before {
+  background-color: red;
+}

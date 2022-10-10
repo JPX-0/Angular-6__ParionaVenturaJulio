@@ -1,0 +1,8 @@
+.invalid-feedback {
+  display: grid;
+  gap: 5px;
+}
+
+p {
+  margin: 0;
+}

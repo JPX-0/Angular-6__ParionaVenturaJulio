@@ -1,0 +1,9 @@
+main {
+  padding: 12px;
+  padding-top: 67px;
+  min-height: calc(100vh - 58px);
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
